@@ -27,9 +27,9 @@ export const Ulinline = styled.ul`
   }
 `;
 
-export const Tab = styled.div`
+export const TabContent = styled.div`
   width: 100%;
   padding: 25px;
   font-family: sans-serif;
-  color: #444;
+  color: blue;
 `;

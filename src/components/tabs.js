@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Ulinline, Tab } from "../style/tabs_style";
+import { Ulinline, TabContent } from "../style/tabs_style";
 
 const Tabs = props => {
   const { selected, children } = props;
@@ -23,7 +23,7 @@ const Tabs = props => {
           );
         })}
       </Ulinline>
-      <Tab>{children[selectedProps]}</Tab>
+      <TabContent>{children[selectedProps]}</TabContent>
     </div>
   );
 };
